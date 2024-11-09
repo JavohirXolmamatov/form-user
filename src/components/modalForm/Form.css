@@ -1,0 +1,74 @@
+.form-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    backdrop-filter: blur(1.2280px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.modal {
+    width: 17rem;
+    height: 34rem;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    height: 100%;
+}
+
+form label {
+    width: 100%;
+}
+
+form span {
+    display: block;
+    width: 100%;
+    text-align: start;
+}
+
+form input {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.radio {
+    width: 100%;
+    padding-bottom: 10px;
+    
+}
+
+.radio label {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    vertical-align: middle;
+    float: left;
+    padding-top: 5px;
+}
+
+.radio label span {
+   margin: 0;
+}
+.radio label input {
+   margin-right: 50px;
+   padding: 0;
+}
